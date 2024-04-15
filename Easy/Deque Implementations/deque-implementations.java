@@ -66,8 +66,9 @@ class GFG {
 // x : element to be pushed
 
 // Function to push element x to the back of the deque.
-  public static void push_back_pb(ArrayDeque<Integer> dq, int x) {
-     dq.offerLast(x);
+ public static void push_back_pb(ArrayDeque<Integer> dq, int x) {
+    // Your code here
+    dq.offerLast(x);
 
 }
 
