@@ -47,12 +47,22 @@ class GFG
 //User function Template for Java
 class Solution{
     String isVowel(char c){
-        char[] arr = {'a','A','e','E','i','I','o','O','u','U'};
-        for(int i =0;i<arr.length;i++){
-            if(c==arr[i]){
-                return("YES");
-            }
+        // code here
+        LinkedList<Character> list = new LinkedList<>();
+        list.add('a');
+        list.add('e');
+        list.add('i');
+        list.add('o');
+        list.add('u');
+        list.add('A');
+        list.add('E');
+        list.add('I');
+        list.add('O');
+        list.add('U');
+        if(list.contains(c)){
+            return "YES";
         }
-        return("NO");
+        
+        return "NO";
     }
 }
