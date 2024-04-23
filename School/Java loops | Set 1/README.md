@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/java-loops-set-11726/1?page=1&category=Java&difficulty=School&sortBy=submissions">Java loops | Set 1</a></h2><h3>Difficulty Level : School</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">For a given N, return an arraylist containing&nbsp;the sum of even and odd integers of the first N natural numbers.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/java-loops-set-11726/1?page=2&category=Java&sortBy=submissions">Java loops | Set 1</a></h2><h3>Difficulty Level : School</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">For a given N, return an arraylist containing&nbsp;the sum of even and odd integers of the first N natural numbers.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
