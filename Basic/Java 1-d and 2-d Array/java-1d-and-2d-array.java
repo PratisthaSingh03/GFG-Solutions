@@ -48,16 +48,14 @@ class Complete
     public static ArrayList<Integer> array(int a[][], int b[], int n)
     {
         // Complete the function
-         int sum=0, max=Integer.MIN_VALUE;
-           for(int i=0;i<n;i++){
-               sum+=a[i][i];
-
-               if(b[i]>max){
-                max=b[i];
-               }
-           }
-          return new ArrayList<>(Arrays.asList(sum,max));
+        int sum=0;
+        for(int i=0;i<n;i++){
+            sum+=a[i][i];
+        }
+        Arrays.sort(b);
+        ArrayList a1=new ArrayList<Integer>();
+        a1.add(sum);
+        a1.add(b[n-1]);
+        return a1;
     }
 }
-
- 
